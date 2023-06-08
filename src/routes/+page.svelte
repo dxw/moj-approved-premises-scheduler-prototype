@@ -40,86 +40,86 @@
       monthDay: 3,
       weekDay: 'Sat'
     },
-    {
-      monthDay: 4,
-      weekDay: 'Sun'
-    },
-    {
-      monthDay: 5,
-      weekDay: 'Mon'
-    },
-    {
-      monthDay: 6,
-      weekDay: 'Tue'
-    },
-    {
-      monthDay: 7,
-      weekDay: 'Wed'
-    },
-    {
-      monthDay: 8,
-      weekDay: 'Thu'
-    },
-    {
-      monthDay: 9,
-      weekDay: 'Fri'
-    },
-    {
-      monthDay: 10,
-      weekDay: 'Sat'
-    },
-    {
-      monthDay: 11,
-      weekDay: 'Sun'
-    },
-    {
-      monthDay: 12,
-      weekDay: 'Mon'
-    },
-    {
-      monthDay: 13,
-      weekDay: 'Tue'
-    },
-    {
-      monthDay: 14,
-      weekDay: 'Wed'
-    },
-    {
-      monthDay: 15,
-      weekDay: 'Thu'
-    },
-    {
-      monthDay: 16,
-      weekDay: 'Fri'
-    },
-    {
-      monthDay: 17,
-      weekDay: 'Sat'
-    },
-    {
-      monthDay: 18,
-      weekDay: 'Sun'
-    },
-    {
-      monthDay: 19,
-      weekDay: 'Mon'
-    },
-    {
-      monthDay: 20,
-      weekDay: 'Tue'
-    },
-    {
-      monthDay: 21,
-      weekDay: 'Wed'
-    },
-    {
-      monthDay: 22,
-      weekDay: 'Thu'
-    },
-    {
-      monthDay: 23,
-      weekDay: 'Fri'
-    },
+    // {
+    //   monthDay: 4,
+    //   weekDay: 'Sun'
+    // },
+    // {
+    //   monthDay: 5,
+    //   weekDay: 'Mon'
+    // },
+    // {
+    //   monthDay: 6,
+    //   weekDay: 'Tue'
+    // },
+    // {
+    //   monthDay: 7,
+    //   weekDay: 'Wed'
+    // },
+    // {
+    //   monthDay: 8,
+    //   weekDay: 'Thu'
+    // },
+    // {
+    //   monthDay: 9,
+    //   weekDay: 'Fri'
+    // },
+    // {
+    //   monthDay: 10,
+    //   weekDay: 'Sat'
+    // },
+    // {
+    //   monthDay: 11,
+    //   weekDay: 'Sun'
+    // },
+    // {
+    //   monthDay: 12,
+    //   weekDay: 'Mon'
+    // },
+    // {
+    //   monthDay: 13,
+    //   weekDay: 'Tue'
+    // },
+    // {
+    //   monthDay: 14,
+    //   weekDay: 'Wed'
+    // },
+    // {
+    //   monthDay: 15,
+    //   weekDay: 'Thu'
+    // },
+    // {
+    //   monthDay: 16,
+    //   weekDay: 'Fri'
+    // },
+    // {
+    //   monthDay: 17,
+    //   weekDay: 'Sat'
+    // },
+    // {
+    //   monthDay: 18,
+    //   weekDay: 'Sun'
+    // },
+    // {
+    //   monthDay: 19,
+    //   weekDay: 'Mon'
+    // },
+    // {
+    //   monthDay: 20,
+    //   weekDay: 'Tue'
+    // },
+    // {
+    //   monthDay: 21,
+    //   weekDay: 'Wed'
+    // },
+    // {
+    //   monthDay: 22,
+    //   weekDay: 'Thu'
+    // },
+    // {
+    //   monthDay: 23,
+    //   weekDay: 'Fri'
+    // },
   ]
 
   export const bedRows = [
@@ -127,80 +127,299 @@
       bedName: 'r1 b1',
       schedule: [
         {
-          type: 'booking',
-          bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
-          length: 30,
-          personName: 'Darius Salom',
-          startDate: '2023-05-25',
-          startDateFormatted: '25 May',
-          endDate: '2023-06-26',
-          endDateFormatted: '26 Jun',
+          date: '2023-05-25',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            },
+            {
+              type: 'void',
+              bookingID: '23847194',
+              length: 10,
+              reason: 'Deep clean',
+              startDate: '2023-05-16',
+              startDateFormatted: '16 May',
+              endDate: '2023-05-25',
+              endDateFormatted: '25 May'
+            }
+          ]
         },
+        {
+          date: '2023-05-26',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-27',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-28',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-29',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-30',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-31',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-01',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-02',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-03',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 30,
+              personName: 'Darius Salom',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        }
       ]
     },
     {
       bedName: 'r2 b1',
       schedule: [
         {
-          type: 'booking',
-          bookingID: '78a5d6ce-fbab-11ed-be56-0242ac120002',
-          length: 8,
-          personName: 'Ali Mahan',
-          startDate: '2023-04-12',
-          startDateFormatted: '12 Apr',
-          endDate: '2023-05-30',
-          endDateFormatted: '30 May',
+          date: '2023-05-25',
+          bookings: [
+            {
+              type: 'void',
+              bookingID: '1c71346a-fb07-11ed-be56-0242ac120002',
+              length: 5,
+              voidResearch: 'Deepcleaning',
+              startDate: '2023-05-25',
+              startDateFormatted: '25 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            },
+          ]
         },
         {
-          type: 'void',
-          length: 2,
-          startDate: '2023-05-31',
-          startDateFormatted: '31 May',
-          endDate: '2023-06-01',
-          endDateFormatted: '1 Jun',
+          date: '2023-05-26',
+          bookings: [
+          ]
         },
         {
-          type: 'open',
-          length: 15,
-          startDate: '2023-06-02',
-          startDateFormatted: '2 Jun',
-          endDate: '2023-06-18',
-          endDateFormatted: '18 Jun',
+          date: '2023-05-27',
+          bookings: [
+          ]
         },
         {
-          type: 'booking',
-          bookingID: 'd1952d10-fbb1-11ed-be56-0242ac120002',
-          length: 30,
-          personName: 'James Brown',
-          startDate: '2023-06-19',
-          startDateFormatted: '19 Jun',
-          endDate: '2023-07-19',
-          endDateFormatted: '19 Jul',
-        },
-      ]
-    },
-    {
-      bedName: 'r3 b1',
-      schedule: [
-        {
-          type: 'booking',
-          bookingID: '1c71346a-fb07-11ed-be56-0242ac120001',
-          length: 20,
-          personName: 'Aniko Gaal',
-          startDate: '2023-05-25',
-          startDateFormatted: '25 May',
-          endDate: '2023-06-16',
-          endDateFormatted: '16 Jun',
+          date: '2023-05-28',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
         },
         {
-          type: 'booking',
-          bookingID: '1c71346a-fb07-11ed-be56-0242ac120001',
-          length: 20,
-          personName: 'Adam Hughes',
-          startDate: '2023-06-17',
-          startDateFormatted: '17 Jun',
-          endDate: '2023-08-17',
-          endDateFormatted: '17 Jul',
+          date: '2023-05-29',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-30',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-05-31',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-01',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-02',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
+        },
+        {
+          date: '2023-06-03',
+          bookings: [
+            {
+              type: 'booking',
+              bookingID: 'asdasf2',
+              length: 10,
+              personName: 'Adam Hughes',
+              startDate: '2023-05-28',
+              startDateFormatted: '28 May',
+              endDate: '2023-06-26',
+              endDateFormatted: '26 Jun'
+            }
+          ]
         },
       ]
     },
@@ -212,6 +431,18 @@
 <section aria-label="Overview calendar">
   <div class="scrollable">
     <table cellspacing="0">
+
+      <colgroup>
+        <col>
+        {#each tableHeadings as tableHeading}
+          {#if tableHeading.weekDay === 'Sat' || tableHeading.weekDay === 'Sun'}
+            <col class="weekend">
+          {:else}
+            <col>
+          {/if}
+        {/each}
+      </colgroup>
+
       <thead>
         <th>Room/Bed</th>
         {#each tableHeadings as tableHeading}
@@ -228,18 +459,28 @@
           <tr>
             <th class="bed-heading" scope="row">{bedRow.bedName}</th>
 
-            {#each bedRow.schedule as booking}
-              {#if booking.type === 'booking'}
-                <td class="booking booking-id-{booking.bookingID}" colspan="{booking.length}">
-                  <a href="/booking/{booking.bookingID}" title="{booking.personName} ({booking.startDateFormatted} - {booking.endDateFormatted}">{booking.personName} ({booking.startDateFormatted} - {booking.endDateFormatted})</a>
+            {#each bedRow.schedule as day}
+
+              {#if day.bookings.length === 1}
+
+                {#if day.bookings[0].type === 'booking'}
+                  <td class="booking booking-id-{day.bookings[0].bookingID}">
+                    <a href="/booking/{day.bookings[0].bookingID}" title="{day.bookings[0].personName} ({day.bookings[0].startDateFormatted} - {day.bookings[0].endDateFormatted})">{day.bookings[0].personName} ({day.bookings[0].startDateFormatted} - {day.bookings[0].endDateFormatted})</a>
+                  </td>
+                {:else}
+                  <td class="void">
+                    Void
+                  </td>
+                {/if}
+
+              {:else if day.bookings.length > 1}
+                <td class="conflict">
+                  <p>Overbooked</p>
                 </td>
-              {:else if booking.type === 'open'}
-                <td class="open" colspan="{booking.length}">
-                  
-                </td>
+
               {:else}
-                <td class="void" colspan="{booking.length}">
-                  
+                <td class="open">
+                
                 </td>
               {/if}
             {/each}
@@ -303,8 +544,14 @@
     background-color: rgba(177, 180, 182, 0.5);
   }
 
+  .conflict {
+    background-color: red;
+    color: #000;
+    font-size: 14px;
+  }
+
   .weekend {
-    background: #ebebeb;
+    background: #ccc;
   }
 
 </style>
